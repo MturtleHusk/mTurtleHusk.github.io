@@ -1,0 +1,83 @@
+:root { 
+    /* colors */
+   
+    --main-body-text-color: #868e96; 
+    --first-name-color: #343a40;
+    --social-media-icons-color:#495057;
+    --social-media-icons-color-hovering:#006e2e;
+    --aside-backgorund-panel-color: #27592D;
+    --last-name-color: #299b77;
+    --nav-title-text-color: #299b77;
+    /* --nav-item-text-color:  */
+    --skill-icon-color: #27592D;
+    --important-text-color: #299b77;
+    --basic-links-text-color: #299b77;
+    --basic-links-text-color-hovering: #006e2e; 
+      
+}
+#firsticon{  /* hides first image on skill bar */
+    color:white; /* icon next to progress bars color - white same as back*/ 
+}
+  
+.progress{    
+    background-color: white  ; /* remove background from progress bars*/
+    height: 50px;    
+    margin-bottom: 4px;
+    color: var(--skill-icon-color);    /* icon next to progress bars color*/ 
+}
+  
+.devicons{ /* make skill cons larger*/  
+    font-size: 4em;  
+    padding-right: 10px;    
+}
+.prgbar_color{
+    background-color:var(--last-name-color) !important;  /* color of progress bar*/
+}
+#skillbar1, #skillbar2, #skillbar3, #skillbar4, #skillbar5{
+    background-color: red !important;  /* color of progress bar*/
+    height: 20px;
+    margin-bottom: 20px;
+   
+}
+.skill_var{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 10px;;
+    text-align: center;
+  
+}
+#divider_prg1, #divider_prg2, #divider_prg3, #divider_prg4{
+    background-color: white !important;  /* color of progress bar*/
+    height: 50px;
+  
+}
+.prgbar_name{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 10px;;
+    text-align: left;
+} 
+.prgbar_name_end{
+    font-size: 1.5em;
+    font-weight: bold;   
+    text-align: right;
+} 
+
+.progress-title{ 
+    height: 20px;    
+    margin-bottom: 10px;    
+}
+
+/* iphone display*/
+@media (max-width: 768px) { 
+    .skill_var{
+      display: none;
+    }
+    .prgbar_name{
+        display: none;
+      }
+}
+/* desktop displays*/
+@media (min-width: 768px) {
+    
+}
