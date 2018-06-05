@@ -132,6 +132,16 @@ h2 {
   }
 }
 
+.resume_img{
+   width: 40px !important;
+   height: 40px !important ;
+   border: none;
+   margin: 0 px;
+
+   margin-right: 75%;
+
+}
+
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
   /* padding-top: 5rem !important; */
