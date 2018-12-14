@@ -36,7 +36,7 @@ else{
                 "#skillbar3":11.5, "#divider_prg3":.5,
                 "#skillbar4":11.5, "#divider_prg4":.5,
                 "#skillbar5":12, 
-                "#android-prog":30, "#java-prog":45, "#javascript-prog":20, "#python-prog":40, "#cpp-prog":60, "#csharp-prog":20, "#react-prog":15,"#angular-prog":10, "#php-prog":10    } ;
+                "#android-prog":30, "#java-prog":45, "#javascript-prog":20, "#python-prog":40, "#cpp-prog":60, "#csharp-prog":20, "#react-prog":15,"#angular-prog":10, "#php-prog":10, "#nodejs-prog":15, "#html-prog":20     } ;
 }
    
     for (var namer in object1){   
@@ -46,7 +46,7 @@ else{
 
 function resetprog(){
     var delay = 100;
-    var object1 = {"#android-prog":0, "#java-prog":0, "#javascript-prog":0, "#python-prog":0, "#cpp-prog":0, "#csharp-prog":0, "#react-prog":0, "#angular-prog":0, "#php-prog":0    } ;
+    var object1 = {"#android-prog":0, "#java-prog":0, "#javascript-prog":0, "#python-prog":0, "#cpp-prog":0, "#csharp-prog":0, "#react-prog":0, "#angular-prog":0, "#php-prog":0, "#nodejs-prog":0, "#html-prog":0    } ;
     for (var namer in object1){   
         $(namer).attr('width', "0%");    
     }
