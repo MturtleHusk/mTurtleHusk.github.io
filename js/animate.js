@@ -28,7 +28,7 @@ if( $(window).width() == 375){ //iphone 6
                 "#skillbar3":19, "#divider_prg3":1,
                 "#skillbar4":19, "#divider_prg4":1,
                 "#skillbar5":20, 
-                "#android-prog":70, "#java-prog":80, "#javascript-prog":40, "#python-prog":40, "#cpp-prog":100, "#csharp-prog":40, "#react-prog":20, "#angular-prog":20, "#php-prog":20    } ;
+                "#android-prog":70, "#java-prog":80, "#javascript-prog":40, "#python-prog":40, "#cpp-prog":85, "#csharp-prog":40, "#react-prog":20, "#angular-prog":20, "#php-prog":20, "#nodejs-prog":50, "#html-prog":70    } ;
 }
 else{
     object1 = { "#skillbar1":11.5, "#divider_prg1":.5, 
